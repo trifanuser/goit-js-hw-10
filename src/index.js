@@ -2,7 +2,8 @@ import axios from 'axios';
 import SlimSelect from 'slim-select';
 import Notiflix from 'notiflix';
 
-axios.defaults.headers.common['x-api-key'] = 'live_WhdwNZfvMlFmELjtish7GakEY720co6eQ5k42h0nwd4oSPDthBxyTPvrO5V6uYQY'; 
+axios.defaults.headers.common['x-api-key'] = 'live_QT08vof6Z0YRNrilN5w44GGDmM9ia5wm32nDFeedz7XpHM4yCfOxWAEanPsiLZ3c'; 
+
 
 const fetchBreeds = () => {
   return axios.get('https://api.thecatapi.com/v1/breeds')
